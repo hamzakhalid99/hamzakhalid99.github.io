@@ -53,8 +53,9 @@ td {
 
 .photo {
   padding-left: 2.5%;
-  width: 30%;
-  max-width: 30%;
+/*   width: 30%; */
+  max-width: 100%;
+  height: auto;
 }
 
 .self-author {
