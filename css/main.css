@@ -17,9 +17,7 @@ a:visited {
   color: #0051c9;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   line-height: 1.2;
 }
 
@@ -39,9 +37,7 @@ table {
   text-align: center;
 }
 
-table,
-tr,
-td {
+table, tr, td {
   padding: 0;
 }
 
@@ -51,14 +47,6 @@ td {
   vertical-align: center;
 }
 
-/* .photo {
-  padding-left: 2.5%;
-   width: 30%;
-  max-width: 100%;
-  height: auto;
-} */
-
-
 .photo {
   padding-left: 2.5%;
   width: 200px; /* Example width for larger screens */
@@ -66,8 +54,8 @@ td {
 }
 
 /* Styles for mobile devices */
-@media (max-width: 768px) { /* Adjust this breakpoint as needed */
-  photo {
+@media (max-width: 768px) {
+  .photo {
     width: 80px; /* Example width for mobile screens */
     height: auto; /* Maintain aspect ratio */
   }
